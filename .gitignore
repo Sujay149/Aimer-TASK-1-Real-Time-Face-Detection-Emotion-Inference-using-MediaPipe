@@ -7,6 +7,12 @@
 *.iml
 *.iws
 *.ipr
+.idea/caches/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
 
 # Local configuration
 local.properties
@@ -20,9 +26,6 @@ bin/
 gen/
 out/
 
-# Android Proguard
-app/proguard-rules.pro.bak
-
 # Android Studio temporary files
 captures/
 .externalNativeBuild
@@ -31,3 +34,10 @@ captures/
 # OS generated files
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# App-specific
+app/src/main/res/values/google-services.json
+*.keystore
+*.jks
+proguard-rules.pro.bak
